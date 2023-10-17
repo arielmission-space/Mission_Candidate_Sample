@@ -1,4 +1,4 @@
-![image](https://github.com/arielmission-space/Mission_Candidate_Sample/assets/35331680/ab9aead5-693f-4103-8546-57c7928b23f0)# Mission_Candidate_Sample
+# Mission_Candidate_Sample
 Repository for the Ariel Mission Candidate Sample (MCS).
 
 Lists of potential targets for the Ariel mission, derived from the currently known exoplanets and the TESS Planet Candidates (TPCs), are provided in the target_list folder. The MCS will be updated on a regular basis and, in general, it is advisable to use the most recent version of the MCS in each case. In the notebooks folder, one can find a jupyter notebook which contains a few plotting scripts which may be of use as well as a simple function which can be used to automatically load the most recent version of the MCS. The codes used to model the capabilities of Ariel's instrumentation, as well as assumptions on the instrument performance, are also evolving. Therefore, the code and payload versions utilised for each target list are provided in the code_versions.txt file.
