@@ -1,13 +1,6 @@
 # Mission_Candidate_Sample
-Repository for the Ariel Mission Candidate Sample (MCS).
+Repository for the 2019 Ariel Mission Reference Sample.
 
-Lists of potential targets for the Ariel mission, derived from the currently known exoplanets and the TESS Planet Candidates (TPCs), are provided in the target_list folder. The MCS will be updated on a regular basis and, in general, it is advisable to use the most recent version of the MCS in each case. In the notebooks folder, one can find a jupyter notebook which contains a few plotting scripts which may be of use as well as a simple function which can be used to automatically load the most recent version of the MCS. The codes used to model the capabilities of Ariel's instrumentation, as well as assumptions on the instrument performance, are also evolving. Therefore, the code and payload versions utilised for each target list are provided in the code_versions.txt file.
+This branch holds only the 2019 MRS from Edwards et al. 2019 which is to be used for Ariel payload reviews. 
 
-If you use these data in a publication, please reference the latest Ariel target list paper (Edwards & Tinetti 2022, https://ui.adsabs.harvard.edu/abs/2022AJ....164...15E/abstract) and the paper describing ArielRad (Mugnai et al. 2020, https://ui.adsabs.harvard.edu/abs/2020ExA....50..303M/abstract), which was used to model the performance of Ariel when developing these lists. If you are feeling particularly generous, you could also cite the previous target list paper (Edwards et al. 2019, https://ui.adsabs.harvard.edu/abs/2019AJ....157..242E/abstract), in which much of the current target list methodology is described.
-
-As noted in these studies, the methodology for computing the required number of transits is based upon assuming a hydrogen dominated atmosphere with a requirement of Ariel AIRS data reaching an SNR > 7 on the modulation expected by 5 scale heights of atmosphere at the resolution of each Tier. For rocky planets the science goal is the detection/refutation of a primary atmosphere and, therefore, if the planet instead hosts a secondary atmosphere, more observations will be required to achieve the same SNR on the atmospheric signal. For eclipse, the required number of observations is based upon achieving an SNR > 7 on the emission of the planet, which is modelled as a blackbody. We note that the Ariel science consortium is actively exploring these requirements, as well as the definitions of the Tiers, and so these may be subject to change in the future.
-
-More information on the observing strategy of Ariel (definition of the Tiers etc.) can be found in the references listed above, as well as the mission's yellow (Tinetti et al 2018, https://ui.adsabs.harvard.edu/abs/2018ExA....46..135T/abstract) and red (Tinetti et al. 2021, https://ui.adsabs.harvard.edu/abs/2021arXiv210404824T/abstract) books.
-
-Please direct questions or suggestions to b.edwards@sron.nl
-
+Any other simulations should use files from the main branch.
